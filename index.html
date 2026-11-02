@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background Blobs -->
+    <div class="blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content glass-card">
+                <h1 class="fade-in">Xin chào, tôi là <span class="gradient-text">Creative Developer</span></h1>
+                <p class="fade-in-delay">Chuyên gia phát triển web với đam mê tạo ra những trải nghiệm số độc đáo và sáng tạo.</p>
+                <div class="cta-buttons fade-in-delay-2">
+                    <a href="#projects" class="btn btn-primary">Xem dự án</a>
+                    <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Về tôi</h2>
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <p>Tôi là một developer với hơn 5 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại. Đam mê của tôi là kết hợp thiết kế đẹp mắt với code chất lượng cao.</p>
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">CSS/SASS</span>
+                        <span class="skill-tag">Three.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Dự án nổi bật</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Nền tảng thương mại điện tử với giao diện hiện đại và trải nghiệm người dùng tối ưu.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-image project-2"></div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Bảng điều khiển phân tích dữ liệu với visualization trực quan và real-time updates.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-image project-3"></div>
+                    <div class="project-info">
+                        <h3>Social Media App</h3>
+                        <p>Ứng dụng mạng xã hội với tính năng tương tác thời gian thực và giao diện responsive.</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>GraphQL</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Liên hệ</h2>
+            <div class="contact-content glass-card">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tên của bạn" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tin nhắn" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📱</span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+84 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Ho Chi Minh City, Vietnam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Portfolio. Made with ❤️ and Liquid Glass</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
